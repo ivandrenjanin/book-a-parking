@@ -19,3 +19,7 @@ $ npm run start
 # Run tests - Must have Docker db up
 $ npm run test
 ```
+
+TODO:
+
+- [] Locking (db/redis/mutex) so that when two users attempt to book a same parking spot within the overlapping time frame
